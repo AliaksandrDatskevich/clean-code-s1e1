@@ -139,13 +139,13 @@
     width: 226px;
   }
   
-  .delete-ico {
+  .delete-icon {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
   }
   
-  .delete-ico:hover {
+  .delete-icon:hover {
     transform: rotateZ(0);
   }
   
@@ -156,7 +156,7 @@
   }
   
   /* Edit Task */
-  .input[type="text"] {
+  .input[type="text"]:not(.new-task) {
     display: none;
   }
   
