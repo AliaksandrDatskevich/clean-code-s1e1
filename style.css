@@ -1,5 +1,5 @@
 /* Basic Style */
-.general-wraper {
+.body {
     background-color: #f8f8f8;
     color: #333;
     font-family: Lato, sans-serif;
@@ -12,11 +12,11 @@
     text-align: right;
   }
   
-  .header-img {
+  .header__img {
     width: 100%;
   }
   
-  .more-info {
+  .header__more-info {
     font-family: fantasy, cursive;
   }
   
@@ -40,7 +40,7 @@
     flex-grow: 1;
   }
   
-  .task-row-wrapper {
+  .new-task-wrapper {
     display: flex;
   }
   
@@ -124,7 +124,7 @@
     vertical-align: middle;
   }
   
-  .list-item > input[type="checkbox"] {
+  .list-item > .input[type="checkbox"] {
     margin: 0 10px;
   }
   
@@ -160,11 +160,11 @@
     display: none;
   }
   
-  .edit-mode .input[type="text"] {
+  .list-item_edit-mode .input[type="text"] {
     display: inline-block;
     width: 224px;
   }
   
-  .edit-mode .task {
+  .list-item_edit-mode .task {
     display: none;
   }
